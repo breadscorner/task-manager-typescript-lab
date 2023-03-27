@@ -1,0 +1,23 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+.taskItem {
+  @apply mb-2 w-96 rounded-md py-1 px-4 hover:bg-base-200;
+}
+
+.taskItemContainer {
+  @apply flex items-center;
+}
+
+.taskItemTitle {
+  @apply label flex-1 cursor-pointer justify-start gap-4;
+}
+
+.taskItemDeleteBtn {
+  @apply btn-ghost btn-square btn ml-auto;
+}
+
+.center {
+  @apply flex h-screen items-center justify-center;
+}
